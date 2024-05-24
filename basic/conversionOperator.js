@@ -1,3 +1,5 @@
+// Explicit Conversion
+
 // String to Number
 //Using Number()
 let strToNum1 = Number("123");
@@ -58,6 +60,37 @@ console.log("Array to String:", arrToStr);// "1, 2, 3"
 //Using split() method
 let strToArr = "1, 2, 3".split(", ");
 console.log("String to Array:", strToArr);// [1, 2, 3]
+
+
+// Unary Plus (+) Operator
+str = "123";
+let unaryPlus = +str; // 123
+console.log(unaryPlus);
+
+// Unary Negation (-) Operator
+str = "123";
+let unaryNeg = -str; // -123
+console.log(unaryNeg);
+
+// Double Negation (!!) Operator
+str = "hello";
+let doubleNeg = !!str; // true
+console.log(doubleNeg);
+
+// Template Literals
+num = 123;
+let templateLiteral = `Number is ${num}`; // "Number is 123"
+console.log(templateLiteral);
+
+
+// Implicit Conversion (Type Coercion)
+console.log("Implicit Conversion:");
+console.log(1 + "2"); // "12" (number to string)
+console.log("5" - 2); // 3 (string to number)
+console.log("5" * 2); // 10 (string to number)
+console.log("5" / 2); // 2.5 (string to number)
+console.log(!!"hello"); // true (non-empty string to boolean)
+console.log(!!0); // false (number to boolean)
 
 
 
