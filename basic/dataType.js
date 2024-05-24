@@ -1,3 +1,7 @@
+//documentation
+//1. ECMA tc39.ec
+//2. MDN Web Doc
+
 // Primitive Data Types
 
 //_____________________________________________________
