@@ -58,8 +58,8 @@ console.log(typeof colors1); // "object" (arrays are considered objects in JavaS
 // To check for null, it's better to use a strict equality check:
 let y1 = null;
 console.log(y1 === null); // true
-Arrays
 
+// Arrays
 // Arrays are technically objects, so typeof an array will return "object".
 // To check if a variable is an array, use Array.isArray():
 
@@ -78,3 +78,31 @@ console.log(typeof greet); // "function"
 let date = new Date();
 console.log(date instanceof Date); // true
 console.log(date.constructor === Date); // true
+
+
+// Summary
+// The typeof operator is a simple and powerful tool for determining the type of a value in JavaScript. 
+// Here are the most common return values:
+
+// Summary
+// The typeof operator is a simple and powerful tool for determining the type of a value in JavaScript. 
+// Here are the most common return values:
+
+// Primitive types
+console.log(typeof 25);                  // "number"
+console.log(typeof "Alice");             // "string"
+console.log(typeof true);                // "boolean"
+let x1;
+console.log(typeof x1);                  // "undefined"
+console.log(typeof null);                // "object" (null is a primitive, but typeof returns "object")
+console.log(typeof Symbol('desc'));      // "symbol"
+console.log(typeof 123456789012345678901234567890n); // "bigint"
+
+// Non-primitive types
+console.log(typeof { name: "Alice" });   // "object"
+let student = ["sohai", "Tazeem", "Salman"];
+console.log(Array.isArray(student));     // true (check if student is an array)
+console.log(typeof student);             // "object" (arrays are objects)
+console.log(typeof function() { return "Hello"; }); // "function"
+
+
