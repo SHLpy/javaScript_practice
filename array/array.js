@@ -32,6 +32,20 @@ console.log(all_hero);//output: ["thor","ironman","hulk","superman","flash","bat
 const allnewheros =  [...marvel_heros, ...dc_heros]
 console.log(marvel_heros)//output: ["thor","ironman","hulk","superman","flash","batman"]
 
+const my_array = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+const another_array = my_array.flat(Infinity)
+console.log(another_array)
+//output : 
+// [
+//     1,2,3,4,5,
+//     6,7,6,7,4,
+//     5,
+// ]
+
+console.log(Array.isArray("sohail")) //output : false
+console.log(Array.from("sohail")) //output : ['s','o','h','a','i','l']
+console.log(Array.isArray({name : "sohail"})) //output : []   |interesting topic
+
 //-----------------------------------------------------------------------------------------------------------------------------------------
 
 //arrat Methods
