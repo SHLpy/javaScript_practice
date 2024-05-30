@@ -1,0 +1,114 @@
+/* Set default styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9440b8;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the container for the BMI calculator */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #b294bc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+}
+
+/* Style paragraphs within the form */
+form p {
+    margin-bottom: 10px;
+}
+
+/* Style input fields for height and weight */
+#height,
+#weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+/* Style the weight guide section */
+#weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+/* Style the results display */
+#results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Style input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style the calculate button */
+button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #333;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #212121;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #555;
+}
+
+/* Style the h1 heading */
+h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    text-align: center;
+    color: #333;
+}
+
+/* Style the weight guide section */
+#weight-guide {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings within the weight guide section */
+#weight-guide h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Style paragraphs within the weight guide section */
+#weight-guide p {
+    margin-bottom: 5px;
+}
