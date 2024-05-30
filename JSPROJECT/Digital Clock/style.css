@@ -1,0 +1,55 @@
+/* Set height to 100% for body and html, and remove default margin */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Use Arial font as default, followed by sans-serif fallback */
+    display: flex; /* Use flexbox for centering elements */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-color: #1b021e; /* Set background color */
+}
+
+/* Center-align text within the container */
+.center {
+    text-align: center;
+}
+
+/* Styling for the banner */
+#banner {
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+    font-size: 12px; /* Set font size */
+    padding: 20px 0 0; /* Add padding */
+}
+
+/* Styling for the date and time container */
+#datetime {
+    font-family: 'Roboto Mono', monospace; /* Set font family for the datetime container */
+    padding: 20px; /* Add padding */
+    border: 2px solid #333; /* Add border with color #333 */
+    border-radius: 10px; /* Add border radius */
+    background-color: #403d3d; /* Set background color */
+    display: inline-block; /* Make the container an inline block */
+    font-family: 'Share Tech Mono', monospace; /* Set font family for the datetime container */
+    color: #ffffff; /* Set text color to white */
+    text-align: center; /* Center-align text */
+    position: absolute; /* Position the container absolutely */
+    left: 50%; /* Align the container horizontally to the center */
+    top: 50%; /* Align the container vertically to the center */
+    transform: translate(-50%, -50%); /* Move the container to the center */
+    color: #daf6ff; /* Set text color to a light blue shade */
+    text-shadow: 0 0 20px #8c8b8b, 0 0 20px rgba(10, 175, 230, 0); /* Add text shadow */
+}
+
+/* Styling for the clock */
+#clock {
+    letter-spacing: 0.05em; /* Adjust letter spacing */
+    font-size: 80px; /* Set font size */
+    padding: 5px 0; /* Add padding */
+}
+
+/* Styling for the date */
+#date {
+    letter-spacing: 0.1em; /* Adjust letter spacing */
+    font-size: 24px; /* Set font size */
+}
