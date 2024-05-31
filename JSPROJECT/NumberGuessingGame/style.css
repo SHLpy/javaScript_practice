@@ -1,0 +1,107 @@
+/* Reset default margins and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family */
+html {
+    font-family: sans-serif;
+}
+
+/* Body Styles */
+body {
+    width: 100%; /* Adjusted to full width */
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #212121;
+    padding: 20px; /* Added padding for spacing */
+}
+
+/* Heading Styles */
+h1 {
+    background-color: #58046d; /* Changed background color */
+    color: #fff;
+    padding: 20px; /* Added padding for spacing */
+    margin-top: 0; /* Remove default margin */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px; /* Increased font size for better readability */
+    text-align: center;
+    margin-bottom: 20px; /* Added margin for spacing */
+}
+
+/* Form Styles */
+.form {
+    text-align: center; /* Center align the form */
+    margin-bottom: 30px; /* Added margin for spacing */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Adjusted margin for spacing */
+    color: #fff; /* Set label color */
+}
+
+input[type="text"] {
+    width: 45%;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px; /* Increased font size for better readability */
+    border: none;
+    border-radius: 5px; /* Added border radius for better appearance */
+    margin-bottom: 15px; /* Adjusted margin for spacing */
+}
+
+input[type="submit"] {
+    background-color: #58046d; /* Changed button color */
+    color: #fff;
+    width: 45%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition for hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #72078d; /* Darker color on hover */
+}
+
+
+/* Result Paragraph Styles */
+.resultParas {
+    text-align: center; /* Center align the result paragraphs */
+}
+
+.lastResult, .guesses {
+    color: white;
+    background-color: #7a7a7a; /* Changed background color */
+    padding: 10px 15px; /* Adjusted padding for spacing */
+    border-radius: 5px; /* Added border radius for better appearance */
+    display: inline-block; /* Display inline for better alignment */
+    margin-bottom: 10px; /* Added margin for spacing */
+}
+
+.lowOrHi {
+    font-style: italic;
+    margin-top: 10px;
+    color: #fff; /* Set text color */
+}
+
+/* Wrapper Styles */
+#wrapper {
+    box-sizing: border-box;
+    text-align: center;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Added max-width for better scaling on larger screens */
+    margin: 0 auto;
+    padding: 20px; /* Added padding for spacing */
+    background-color: #474747;
+    color: #fff;
+    border-radius: 10px; /* Added border radius for better appearance */
+}
+
